@@ -1,4 +1,4 @@
-# PINNs for 2D Incompressible Navier–Stokes (steady & unsteady) — Flow past a cylinder
+# PINNs for 2D Incompressible Navier–Stokes (steady & unsteady) - Flow past a cylinder
 
 ```
 2D_NavierStokes_steady/    # PINN for the steady solution (u, v, p)
