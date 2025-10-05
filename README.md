@@ -284,7 +284,7 @@ $$
 Then update the actual weights by EMA (no gradients through \(\lambda\)):
 
 $$
-\lambda^{\text{new}}=\alpha\,\lambda^{\text{old}}+(1-\alpha)\,\hat\lambda
+\lambda^{\text{new}}=\alpha\,\lambda^{\text{old}}+(1-\alpha)\\hat\lambda
 $$
 
 ### 3.5 Final objective and parameter update
