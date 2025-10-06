@@ -241,7 +241,7 @@ $$
 Split \([0,T]\) into \(M\) ordered segments and reweight the residual loss:
 
 $$
-\mathcal{L}_{\mathrm{r}}=\frac{1}{M}\sum_{i=1}^{M} w_i\,\mathcal{L}_{\mathrm{r}}^{(i)}(\theta)
+\mathcal{L}_{\mathrm{r}}=\frac{1}{M}\sum_{i=1}^{M} w_i\mathcal{L}_{\mathrm{r}}^{(i)}(\theta)
 $$
 
 Update the causal weights each iteration:
