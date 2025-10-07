@@ -364,8 +364,11 @@ where \( \odot \) denotes element-wise multiplication and \( \sigma(\cdot) \) is
   └──  points_generator_optimized.py                # Python code containing the function that generates the points to be given as input to the NN
 
 2D_NavierStokes_unsteady/
-  ├── (same structure, with ∂t residuals and IC loss)
-  └── load_steady.py           # Loads steady fields as IC
+  ├── models                                        # Folder with the already trained neural network with the steady state case
+  ├── NS_unsteady_training.ipynb                    # Jupyter notebook with the training loop (NOT RUN YET)
+  ├── loss_function_unsteady_optimized.py.py        # Python code containing the function for the loss_function
+  ├── model_unsteady_optimized.py                   # Python code containing the function of the neural network
+  └── points_generator_optimized.py                 # Python code containing the function that generates the points to be given as input to the NN
 ```
 
 
