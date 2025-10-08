@@ -252,7 +252,7 @@ w_i=\exp\left(-\varepsilon\sum_{k=1}^{i-1}\mathcal{L}_{\mathrm{r}}^{(k)}(\theta)
 $$
 
 
-### 3.4 Adaptive loss balancing (global weights $\lambda_\bullet$))
+### 3.4 Adaptive loss balancing (global weights $\lambda$))
 
 Every **f** iterations, compute provisional equalizing weights via gradient norms:
 
