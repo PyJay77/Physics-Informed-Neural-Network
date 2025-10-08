@@ -248,13 +248,13 @@ Update the causal weights each iteration:
 
 $$
 w_1=1,\qquad
-w_i=\exp\left(-\varepsilon\sum_{k=1}^{i-1}\mathcal{L}_{\mathrm{r}}^{(k)}(\theta)\right),\quad i=2,\dotsM
+w_i=\exp\left(-\varepsilon\sum_{k=1}^{i-1}\mathcal{L}_{\mathrm{r}}^{(k)}(\theta)\right),\quad i=2,\dots,M
 $$
 
 
-### 3.4 Adaptive loss balancing (global weights \(\lambda_\bullet\))
+### 3.4 Adaptive loss balancing (global weights $\lambda_\bullet$))
 
-Every \(f\) iterations, compute provisional equalizing weights via gradient norms:
+Every **f** iterations, compute provisional equalizing weights via gradient norms:
 
 $$
 \begin{aligned}
