@@ -248,7 +248,7 @@ Update the causal weights each iteration:
 
 $$
 w_1=1,\qquad
-w_i=\exp\left(-\varepsilon\sum_{k=1}^{i-1}\mathcal{L}_{\mathrm{r}}^{(k)}(\theta)\right),\quad i=2,\dots,M
+w_i=\exp\left(-\varepsilon\sum_{k=1}^{i-1}\mathcal{L}_{\mathrm{r}}^{(k)}(\theta)\right),\quad i=2,\dotsM
 $$
 
 
@@ -295,7 +295,7 @@ $$
 \mathcal{L}(\theta)=
 \lambda_{\mathrm{ic}}\mathcal{L}_{\mathrm{ic}}+
 \lambda_{\mathrm{bc}}\mathcal{L}_{\mathrm{bc}}+
-\lambda_{\mathrm{r}}\left[\frac{1}{M}\sum_{i=1}^{M}w_i\,\mathcal{L}_{\mathrm{r}}^{(i)}(\theta)\right]
+\lambda_{\mathrm{r}}\left[\frac{1}{M}\sum_{i=1}^{M}w_i\mathcal{L}_{\mathrm{r}}^{(i)}(\theta)\right]
 $$
 
 Update network parameters with gradient descent / Adam:
