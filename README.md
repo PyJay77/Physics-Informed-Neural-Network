@@ -284,7 +284,7 @@ $$
 Then update the actual weights by EMA (no gradients through \(\lambda\)):
 
 $$
-\lambda^{\text{new}}=\alpha\,\lambda^{\text{old}}+(1-\alpha)\\hat\lambda
+\lambda^{\text{new}}=\alpha\lambda^{\text{old}}+(1-\alpha)\\hat\lambda
 $$
 
 ### 3.5 Final objective and parameter update
@@ -301,7 +301,7 @@ $$
 Update network parameters with gradient descent / Adam:
 
 $$
-\theta_{n+1}=\theta_n-\eta\,\nabla_\theta \mathcal{L}(\theta_n)
+\theta_{n+1}=\theta_n-\eta\nabla_\theta \mathcal{L}(\theta_n)
 $$
 
 ---
@@ -343,7 +343,7 @@ $$
 g^{(\ell)} = \sigma(f_\theta^{(\ell)}) \odot U + \big(1 - \sigma(f_\theta^{(\ell)})\big) \odot V
 $$
 
-where \( \odot \) denotes element-wise multiplication and \( \sigma(\cdot) \) is the activation function (e.g., t
+where $\odot$ denotes element-wise multiplication and $\sigma(\cdot)$ is the activation function.
 
 
 ---
